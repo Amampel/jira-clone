@@ -7,7 +7,6 @@ import { ID, Query } from "node-appwrite";
 import { MemberRole } from "../../members/types";
 import { generateInviteCode } from "@/src/lib/utils";
 import { getMember } from "../../members/utils";
-import { error } from "console";
 import { z } from "zod";
 import { Workspace } from "../types";
 

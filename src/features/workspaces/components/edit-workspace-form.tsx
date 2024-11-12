@@ -11,7 +11,7 @@ import { Button } from "@/src/components/ui/button";
 import { useRef } from "react";
 import Image from "next/image";
 import { Avatar, AvatarFallback } from "@/src/components/ui/avatar";
-import { ArrowLeftIcon, CopyIcon, Delete, ImageIcon } from "lucide-react";
+import { ArrowLeftIcon, CopyIcon, ImageIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/src/lib/utils";
 import { Workspace } from "../types";

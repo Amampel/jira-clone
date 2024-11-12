@@ -18,7 +18,7 @@ import { TaskStatus } from "../types"
 import { useBulkUpdateTask } from "../api/use-bulk-update-task"
 
 export const TaskViewSwitcher = () => {
-    const [{ status, assigneeId, projectId, dueDate }, setFilters] = useTaskFilters();
+    const [{ status, assigneeId, projectId, dueDate }] = useTaskFilters();
     const [view, setView] = useQueryState("task-view", {
         defaultValue: "table"
     })

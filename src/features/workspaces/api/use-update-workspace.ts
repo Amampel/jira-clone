@@ -15,6 +15,9 @@ export const useUpdateWorkspace = () => {
     const mutation = useMutation<ResponseType, Error, RequestType>({
         mutationFn: async ({ form, param }) => {
             const response = await client.api.workspaces[":workspaceId"]["$patch"]({ form, param })
+            if (!response.ok) {
+                throw new Error("Failed to update project");
+            }
             return await response.json()
         },
         onSuccess: ({ data }) => {

@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/src/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/src/components/ui/avatar";
 import { cn } from "@/src/lib/utils";
 import Image from "next/image";
 

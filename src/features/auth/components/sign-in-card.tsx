@@ -7,7 +7,7 @@ import { Button } from "@/src/components/ui/button";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 import DottedSeparator from "@/src/components/dotted-separator";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../../../components/ui/form"
+import { Form, FormControl, FormField, FormItem, FormMessage } from "../../../components/ui/form"
 import { useForm } from "react-hook-form";
 import Link from "next/link";
 import { loginSchema } from "../schemas";

@@ -8,7 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../../components/ui/card"
 import { Input } from "@/src/components/ui/input";
 import { Button } from "@/src/components/ui/button";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../../../components/ui/form"
+import { Form, FormControl, FormField, FormItem, FormMessage } from "../../../components/ui/form"
 
 import DottedSeparator from "@/src/components/dotted-separator";
 import Link from "next/link";

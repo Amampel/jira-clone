@@ -22,6 +22,9 @@ export const useEditTask = () => {
         },
         onSuccess: ({ data }) => {
             toast.success("Task updated")
+
+            console.log('lpepepep');
+
             router.refresh()
             queryClient.invalidateQueries({ queryKey: ["tasks"] })
             queryClient.invalidateQueries({ queryKey: ["task", data.$id] })

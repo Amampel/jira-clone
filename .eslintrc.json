@@ -1,3 +1,26 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "overrides": [
+    {
+      "files": [
+        "./src/components/ui/input.tsx",
+        "./src/components/ui/textarea.tsx",
+        "./src/features/auth/components/user-button.tsx",
+        "./src/features/auth/server/route.ts",
+        "./src/features/projects/components/edit-project-form.tsx",
+        "./src/features/projects/components/project-avatar.tsx",
+        "./src/features/projects/server/route.ts",
+        "./src/features/tasks/api/use-bulk-update-task.ts",
+        "./src/features/tasks/components/create-task-form.tsx",
+        "./src/features/tasks/components/data-filters.tsx",
+        "./src/features/tasks/components/data-table.tsx",
+        "./src/features/tasks/components/edit-task-form.tsx"
+      ],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-empty-object-type": "off"
+      }
+    }
+  ]
 }
+

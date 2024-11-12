@@ -1,6 +1,6 @@
-export const DATABASE_ID = process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID || ''
-export const WORKSPACES_ID = process.env.NEXT_PUBLIC_APPWRITE_WORKSPACES_ID || ''
-export const IMAGES_ID = process.env.NEXT_PUBLIC_APPWRITE_IMAGES_ID || ''
-export const MEMBERS_ID = process.env.NEXT_PUBLIC_APPWRITE_MEMBERS_ID || ''
-export const PROJECTS_ID = process.env.NEXT_PUBLIC_APPWRITE_PROJECTS_ID || ''
-export const TASKS_ID = process.env.NEXT_PUBLIC_APPWRITE_TASKS_ID || ''
+export const DATABASE_ID = "670fd5ca00276579b8a7"
+export const WORKSPACES_ID = "670fd5f9000ad8e5c13d"
+export const IMAGES_ID = "67101258000c55523c92"
+export const MEMBERS_ID = "67103d5f0037ea266a12"
+export const PROJECTS_ID = "6731dbec003e2b704592"
+export const TASKS_ID = "67320dff00148be2d92e"
